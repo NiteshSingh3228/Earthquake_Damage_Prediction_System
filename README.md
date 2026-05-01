@@ -8,12 +8,12 @@ This project contains two ways to predict earthquake damage based on structural 
 
 ---
 
-## 🚀 1. Web Dashboard (Recommended)
+1. Web Dashboard (Recommended)
 
-### Prerequisites
+ Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
 
-### Setup & Run
+Setup & Run
 1. Open your terminal in the `richter-web-2` directory.
 2. Install dependencies:
    ```bash
@@ -27,12 +27,12 @@ This project contains two ways to predict earthquake damage based on structural 
 
 ---
 
-## 🖥️ 2. Desktop Application
+ 2. Desktop Application
 
-### Prerequisites
+Prerequisites
 - [Python 3.x](https://www.python.org/)
 
-### Setup & Run
+ Setup & Run
 1. Install the required Python libraries:
    ```bash
    pip install -r requirements.txt
@@ -44,7 +44,7 @@ This project contains two ways to predict earthquake damage based on structural 
 
 ---
 
-## 📊 Project Structure
+ Project Structure
 - `richter-web-2/`: Source code for the Next.js web application.
 - `desktop_app.py`: Python script for the desktop interface.
 - `rfc_pipeline.pkl`: The trained machine learning model (Required for both apps).
@@ -52,6 +52,6 @@ This project contains two ways to predict earthquake damage based on structural 
 
 ---
 
-## 💡 Notes for Distribution
-- **Important**: Ensure `rfc_pipeline.pkl` is in the same directory as `desktop_app.py` when running the desktop version.
-- **Node Modules**: When sending the folder to someone else, you can delete the `richter-web-2/node_modules` folder to save space. The recipient will recreate it using `npm install`.
+ Notes for Distribution
+- Important: Ensure `rfc_pipeline.pkl` is in the same directory as `desktop_app.py` when running the desktop version.
+- Node Modules: When sending the folder to someone else, you can delete the `richter-web-2/node_modules` folder to save space. The recipient will recreate it using `npm install`.
